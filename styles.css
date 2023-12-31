@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    /* font-family: Josefin Sans; */
+}
+
+img {width: 120px;}
+
+.container {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#inputArea {
+    color: #8F8F8F;
+    background: #444059;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px 0 15px 0;
+    resize: none;
+    width: 317px;
+    height: 118px;
+    border: none;
+    border-radius: 8px;
+}
+
+#IDFromWho, #IDToWho {
+    margin: 0 3px;
+    color: #8F8F8F;
+    background: #444059;
+    text-align: center;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+#inputBtn {
+    color: #04131C;
+    background: #28A9F1;
+    font-size: 22px;
+    padding: 20px 124px;
+    border: none;
+    border-radius: 8px;
+    margin: 15px;
+    font-weight: 700;
+}
+#inputBtn:hover {
+    background: #109AE5;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    /* font-family: Inter; */
+    color: #1B1924;
+    background: #FFFFFF;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 10px;
+    word-break: break-all;
+}
+
+ul li p {
+    color: #1B1924;
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+ul li #comment {
+    margin: 10px 5px;
+    font-weight: 400;
+}
+
+/* блок для лайка */
+/* #newBlock {
+    display: flex;
+    justify-content: space-between;
+} */
