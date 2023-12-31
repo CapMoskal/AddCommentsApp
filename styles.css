@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background: #1B1924;
-    /* font-family: Josefin Sans; */
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 img {width: 120px;}
@@ -70,7 +70,7 @@ ul {
 }
 
 ul li {
-    /* font-family: Inter; */
+    font-family: 'Inter', sans-serif;
     color: #1B1924;
     background: #FFFFFF;
     padding: 10px;
@@ -78,6 +78,7 @@ ul li {
     max-width: 300px;
     margin: 10px;
     word-break: break-all;
+    border-radius: 8px;
 }
 
 ul li p {
@@ -90,9 +91,3 @@ ul li #comment {
     margin: 10px 5px;
     font-weight: 400;
 }
-
-/* блок для лайка */
-/* #newBlock {
-    display: flex;
-    justify-content: space-between;
-} */
